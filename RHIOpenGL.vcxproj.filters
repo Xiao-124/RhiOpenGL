@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\private">
+      <UniqueIdentifier>{50eed34a-c560-4b5b-95c6-39338dc10284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private">
+      <UniqueIdentifier>{e4b860cc-22eb-4d9e-b3fe-3b05f1dfd2d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineStateDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RHICommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RHIExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="private\BufferGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\CommandBufferGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\CommandContextGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\CommandGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\CommandQueueGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\DescriptorSetGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\DescriptorSetLayoutGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\FormatGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\ImageGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\ImageViewGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\PipelineGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\RenderPassGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\ResourceBindingsGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\SamplerGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="private\ShaderModuleGL.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="private\BufferGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\CommandBufferGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\CommandContextGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\CommandGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\CommandQueueGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\DescriptorSetGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\DescriptorSetLayoutGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\DeviceGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\FormatGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\ImageGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\ImageViewGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\PipelineGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\RenderPassGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\ResourceBindingsGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\SamplerGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="private\ShaderModuleGL.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
